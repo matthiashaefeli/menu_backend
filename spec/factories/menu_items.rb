@@ -9,7 +9,7 @@ FactoryBot.define do
     price { Faker::Number.decimal(l_digits: 2) }
 
     trait :with_menu do
-      association :menu, factory: :menu
+      association :menu, factory: [:menu, :with_restaurant]
     end
   end
 end
