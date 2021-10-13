@@ -1,24 +1,23 @@
-# README
+# Menu Management Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Menu Management Backend is a Rails application to manage menues and dinners.
 
-Things you may want to cover:
+## How to set up locally
 
-* Ruby version
+$ git clone https://github.com/matthiashaefeli/menu_backend.git
+$ cd menu_backend
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
 
-* System dependencies
+## Run test suit
 
-* Configuration
+$ rspec
 
-* Database creation
+### Ruby / Ruby on Rails
 
-* Database initialization
+ruby 2.7.0
+Rails 6.0.4.1
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
