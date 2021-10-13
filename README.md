@@ -1,6 +1,6 @@
 # Menu Management Backend
 
-Menu Management Backend is a Rails application to manage menues and dinners.
+Menu Management Backend is a Rails application to manage Menus and Dinners.
 
 ## How to set up locally
 
