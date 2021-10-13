@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe Menu, type: :model do
-  let(:menu) { create :menu, :with_restaurant}
+  let(:menu) { create :menu, :with_restaurant }
   it 'is valid with valid attributes' do
     expect(menu).to be_valid
   end
