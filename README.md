@@ -12,7 +12,7 @@ $ rails db:create
 $ rails db:migrate
 ```
 
-## Run test suit
+## Run test suite
 
 ```
 $ rspec
