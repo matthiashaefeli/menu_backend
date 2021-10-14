@@ -27,5 +27,6 @@ Rails 6.0.4.1
 ```
 
 ### DataBase Design
-<img width="763" alt="menu_backend" src="https://user-images.githubusercontent.com/24925233/137212227-4be3fb98-5e8e-417c-a89d-0edd9cb179b1.png">
+
+<img width="771" alt="db_design_menu_backend" src="https://user-images.githubusercontent.com/24925233/137362412-f3c78b09-2b9a-4c33-9752-126a7d77073c.png">
 
