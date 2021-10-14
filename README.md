@@ -10,7 +10,6 @@ $ cd menu_backend
 $ bundle install
 $ rails db:create
 $ rails db:migrate
-$ rails db:seed
 ```
 
 ## Run test suit
