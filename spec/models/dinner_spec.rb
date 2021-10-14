@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe Dinner, type: :model do
-  let(:dinner) { create :dinner, :with_restaurant }
+  let(:dinner) { create :dinner }
   it 'is valid with valid attributes' do
     expect(dinner).to be_valid
   end
@@ -14,7 +14,7 @@ RSpec.describe Dinner, type: :model do
   end
 
   describe 'complete salad dinner' do
-    let(:dinner) { create :dinner, :with_restaurant }
+    let(:dinner) { create :dinner }
     let(:entree) { create :menu_type, name: 'Entree' }
     let(:side) { create :menu_type, name: 'Side' }
     let(:dish) { create :menu_type, name: 'Standalone Dish' }

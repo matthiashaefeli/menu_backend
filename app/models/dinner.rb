@@ -2,6 +2,7 @@
 
 class Dinner < ApplicationRecord
   belongs_to :restaurant
+  belongs_to :user, optional: true
   has_many :orders
 
   def complete_order
