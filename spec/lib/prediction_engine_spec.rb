@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../lib/prediction_engine.rb'
+require_relative '../../lib/prediction_engine.rb'
 WEEKDAYS = %w[Sunday Monday Tuesday Wednesday Thursday Friday Saturday].freeze
 
 describe PredictionEngine do
